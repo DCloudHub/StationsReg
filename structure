@@ -1,0 +1,15 @@
+station-coordinates-app/
+├── .github/workflows/
+│   └── process-station.yml      # GitHub Actions workflow
+├── backend/
+│   ├── __init__.py
+│   ├── process_station.py       # Backend processing script
+│   └── utils.py                 # Helper functions
+├── data/
+│   ├── stations.json           # Stations database (GitHub-hosted)
+│   └── station_images/         # Image storage directory
+├── app.py                      # Streamlit frontend
+├── requirements.txt
+├── .streamlit/
+│   └── config.toml
+└── README.md

@@ -1,0 +1,16 @@
+# Hybrid starter solution
+def collect_station_coordinates(station_id):
+    # Generate unique link with constraints
+    link_data = {
+        'station_id': station_id,
+        'expires': datetime.now() + timedelta(hours=24),
+        'allowed_area': get_station_polygon(station_id),
+        'business_hours_only': True
+    }
+    
+    # Station manager clicks link
+    # System collects coordinates with browser geolocation
+    # Verifies within polygon and business hours
+    # Takes timestamp and accuracy reading
+    
+    return validated_coordinates
