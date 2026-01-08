@@ -1,13 +1,40 @@
-# Fuel Station Registration System
 
-A web application for fuel station managers to register their stations with GPS location validation and duplicate prevention.
+## **5. README File (`README.md`)**
 
-## Features
+```markdown
+# 📍 Station Location Registration System
 
-- **User Authentication** - Register, login, and profile management
-- **GPS Location Sharing** - Get coordinates via browser or manual entry
-- **Duplicate Prevention** - Automatic detection of stations within 50m radius
-- **Photo Verification** - Upload station photos for verification
-- **Admin Dashboard** - Review and approve station registrations
-- **Real-time Validation** - Coordinate validation and address lookup
-- **Responsive Design** - Works on desktop and mobile devices
+A Streamlit web application to register clients, share personalized WhatsApp links, and automatically record their GPS locations at stations.
+
+## ✨ Features
+
+### 🔗 WhatsApp Integration
+- Generate personalized WhatsApp messages with unique links
+- QR code generation for easy scanning
+- One-click WhatsApp sharing
+
+### 👤 Client Management
+- Unique client ID generation (Format: STN-YYMMDD-001)
+- Client details storage (name, phone, email)
+- Station assignment
+
+### 📍 Location Recording
+- Automatic GPS location capture
+- Manual entry option for testing
+- Accuracy reporting
+- Timestamp recording
+
+### 📊 Data Analytics
+- Real-time dashboard
+- Filter by station/status/date
+- Export to CSV/Excel
+- Visual charts and reports
+
+## 🚀 Quick Start
+
+### Local Development
+```bash
+git clone <your-repo>
+cd station-tracker
+pip install -r requirements.txt
+streamlit run app.py
